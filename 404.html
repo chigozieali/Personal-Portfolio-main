@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found - Chigozie Alioha</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Chigozie Alioha" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Chigozie Alioha">Chigozie Alioha</h1>
+
+          <p class="title">IT Support & Cloud Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:contact@chigozie.dev" class="contact-link">contact@chigozie.dev</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+
+              <a href="https://linkedin.com/in/chigozieali" class="contact-link">linkedin.com/in/chigozieali</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+
+              <a href="https://github.com/chigozieali" class="contact-link">github.com/chigozieali</a>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://linkedin.com/in/chigozieali" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/chigozieali" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link" onclick="window.location.href='./'">
+              <ion-icon name="home-outline"></ion-icon>
+              <span>Home</span>
+            </button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #404 PAGE
+      -->
+
+      <article class="about active" data-page="404">
+
+        <header>
+          <h2 class="h2 article-title">404 - Page Not Found</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Oops! It looks like the page you're looking for doesn't exist. This might be because:
+          </p>
+
+          <ul style="margin: 20px 0; padding-left: 20px;">
+            <li>The URL is incorrect</li>
+            <li>The page has been moved or deleted</li>
+            <li>You followed an outdated link</li>
+          </ul>
+
+          <p>
+            Don't worry though! Let's get you back on track. You can return to my portfolio homepage or explore my Azure cloud projects.
+          </p>
+        </section>
+
+        <!--
+          - Quick Actions
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What would you like to do?</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="home-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">
+                  <a href="./" style="color: inherit; text-decoration: none;">Return Home</a>
+                </h4>
+
+                <p class="service-item-text">
+                  Go back to my main portfolio page to explore my IT Support background and Azure journey.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="cloud-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">
+                  <a href="./#projects" style="color: inherit; text-decoration: none;">View Azure Projects</a>
+                </h4>
+
+                <p class="service-item-text">
+                  Check out my hands-on Azure cloud projects and infrastructure deployments.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="document-text-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">
+                  <a href="./#resume" style="color: inherit; text-decoration: none;">Download Resume</a>
+                </h4>
+
+                <p class="service-item-text">
+                  Get my latest resume showcasing 5+ years in IT Support and Azure certifications.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">
+                  <a href="./#contact" style="color: inherit; text-decoration: none;">Get In Touch</a>
+                </h4>
+
+                <p class="service-item-text">
+                  Have a question or opportunity? I'd love to hear from you.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - Fun Tech Fact
+        -->
+
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">While you're here...</h3>
+
+          <div class="content-card">
+            <div class="testimonials-text">
+              <p style="text-align: center; font-style: italic;">
+                "In the cloud, there's no such thing as a 404 error — just a temporarily unavailable resource that might be in another region!"<br>
+                <small>— A cloud engineer's perspective on error handling</small>
+              </p>
+            </div>
+          </div>
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
