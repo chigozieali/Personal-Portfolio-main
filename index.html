@@ -5,7 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Portfolio</title>
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Chigozie Alioha — IT Support & Cloud Engineer. 5+ years in helpdesk and infrastructure, building hands-on expertise in Microsoft Azure (AZ-900, AZ-104).">
+  <meta name="author" content="Chigozie Alioha">
+  <meta name="theme-color" content="#0b0b0c">
+  <title>Chigozie Alioha | IT Support & Cloud Engineer</title>
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Chigozie Alioha | IT Support & Cloud Engineer">
+  <meta property="og:description" content="5+ years in IT support, now building a career in Microsoft Azure cloud engineering.">
+  <meta property="og:image" content="./assets/images/my-avatar.png">
+  <meta name="twitter:card" content="summary">
 
   <!--
     - favicon
@@ -22,7 +33,7 @@
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -102,7 +113,7 @@
             <div class="contact-info">
               <p class="contact-title">Birthday</p>
 
-              <time datetime="1982-06-23">October 23</time>
+              <time datetime="--10-23">October 23</time>
             </div>
 
           </li>
@@ -128,19 +139,19 @@
         <ul class="social-list">
 
           <li class="social-item">
-            <a href="https://www.linkedin.com/in/chigoziealioha" target="_blank" class="social-link">
+            <a href="https://www.linkedin.com/in/chigoziealioha" target="_blank" rel="noopener" aria-label="LinkedIn profile" class="social-link">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="https://github.com/chigozieali" target="_blank" class="social-link">
+            <a href="https://github.com/chigozieali" target="_blank" rel="noopener" aria-label="GitHub profile" class="social-link">
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="mailto:csalioha@gmail.com" class="social-link">
+            <a href="mailto:csalioha@gmail.com" aria-label="Send an email" class="social-link">
               <ion-icon name="mail"></ion-icon>
             </a>
           </li>
@@ -213,7 +224,7 @@
           </p>
 
           <p>
-            5+ years in IT Support. Now building deep cloud expertise — currently studying AZ-900, targeting AZ-104 and beyond.
+            From troubleshooting hardware and Active Directory on the front lines, to deploying VMs, VNets, and storage in the cloud — I bring the same calm, systematic approach to every environment I work in.
           </p>
         </section>
 
@@ -231,8 +242,7 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="IT Support icon" width="40">
+                <img src="./assets/images/icon-design.svg" alt="IT Support icon" width="40">
               </div>
 
               <div class="service-content-box">
@@ -343,11 +353,7 @@
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                    Chigozie is the first person colleagues call when something breaks. He works through issues methodically, explains the fix clearly, and follows through until the problem is fully resolved.
                   </p>
                 </div>
 
@@ -365,11 +371,7 @@
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                    Reliable, responsive, and remarkably calm under pressure. Chigozie handled our user onboarding and account changes without a single missed deadline.
                   </p>
                 </div>
 
@@ -387,11 +389,7 @@
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                    Reliable, responsive, and remarkably calm under pressure. Chigozie handled our user onboarding and account changes without a single missed deadline.
                   </p>
                 </div>
 
@@ -409,11 +407,7 @@
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                    Chigozie documented our environment so well that daily IT tasks became a team effort instead of a one-person secret. A natural fit for cloud administration.
                   </p>
                 </div>
 
@@ -433,9 +427,9 @@
 
           <div class="overlay" data-overlay></div>
 
-          <section class="testimonials-modal">
+          <section class="testimonials-modal" role="dialog" aria-modal="true" aria-label="Testimonial details">
 
-            <button class="modal-close-btn" data-modal-close-btn>
+            <button class="modal-close-btn" data-modal-close-btn aria-label="Close testimonial">
               <ion-icon name="close-outline"></ion-icon>
             </button>
 
@@ -451,15 +445,11 @@
 
               <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
 
-              <time datetime="2021-06-14">14 June, 2021</time>
+              <time datetime="2026-08-02">2 August, 2026</time>
 
               <div data-modal-text>
                 <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  Chigozie is the first person colleagues call when something breaks. He works through issues methodically, explains the fix clearly, and follows through until the problem is fully resolved.
                 </p>
               </div>
 
@@ -1140,6 +1130,7 @@
                 <p class="project-category">Azure Blob Storage / Static Website</p>
                 <div class="project-meta">
                   <span class="project-date">April 2026</span>
+                  <span class="project-more">Details <ion-icon name="arrow-forward-outline"></ion-icon></span>
                 </div>
               </div>
             </li>
@@ -1152,6 +1143,7 @@
                 <p class="project-category">Azure VM lab</p>
                 <div class="project-meta">
                   <span class="project-date">April 2026</span>
+                  <span class="project-more">Details <ion-icon name="arrow-forward-outline"></ion-icon></span>
                 </div>
               </div>
             </li>
@@ -1164,6 +1156,7 @@
                 <p class="project-category">Storage solution</p>
                 <div class="project-meta">
                   <span class="project-date">April 2026</span>
+                  <span class="project-more">Details <ion-icon name="arrow-forward-outline"></ion-icon></span>
                 </div>
               </div>
             </li>
@@ -1176,6 +1169,7 @@
                 <p class="project-category">Azure SQL Database</p>
                 <div class="project-meta">
                   <span class="project-date">April 2026</span>
+                  <span class="project-more">Details <ion-icon name="arrow-forward-outline"></ion-icon></span>
                 </div>
               </div>
             </li>
@@ -1188,6 +1182,7 @@
                 <p class="project-category">Network lab (Packet Tracer)</p>
                 <div class="project-meta">
                   <span class="project-date">April 2026</span>
+                  <span class="project-more">Details <ion-icon name="arrow-forward-outline"></ion-icon></span>
                 </div>
               </div>
             </li>
@@ -1196,36 +1191,39 @@
 
             <li class="project-item active" data-filter-item data-category="website" data-description="Built StudyFlow, a study planning and productivity web app using AI-assisted workflows and modern web application design." data-tags="AI-assisted Development,Web App,Study Planning,Productivity" data-repo="https://studyflow-app-vc3m.vercel.app/">
               <div class="project-card">
-                <div class="project-num">07</div>
+                <div class="project-num">06</div>
                 <span class="project-status">● Live</span>
                 <h3 class="project-title">StudyFlow App</h3>
                 <p class="project-category">Study planner and productivity app</p>
                 <div class="project-meta">
                   <span class="project-date">June 2026</span>
+                  <span class="project-more">Details <ion-icon name="arrow-forward-outline"></ion-icon></span>
                 </div>
               </div>
             </li>
 
             <li class="project-item active" data-filter-item data-category="website" data-description="Built a SaaS HR, Payroll, and Accounting system that brings workforce operations, payroll processing, and finance workflows into one web platform." data-tags="SaaS,HR,Payroll,Accounting,AI-assisted Development" data-repo="https://saa-s-ebon.vercel.app/">
               <div class="project-card">
-                <div class="project-num">08</div>
+                <div class="project-num">07</div>
                 <span class="project-status">● Live</span>
                 <h3 class="project-title">SaaS HR, Payroll &amp; Accounting System</h3>
                 <p class="project-category">HR / Payroll / Accounting SaaS</p>
                 <div class="project-meta">
                   <span class="project-date">August 2026</span>
+                  <span class="project-more">Details <ion-icon name="arrow-forward-outline"></ion-icon></span>
                 </div>
               </div>
             </li>
 
             <li class="project-item active coming-soon" data-filter-item data-category="networking" data-description="Create two Virtual Networks, configure VNet peering, and test connectivity between resources across both networks." data-tags="Azure VNet,Peering,Networking">
               <div class="project-card">
-                <div class="project-num">06</div>
+                <div class="project-num">08</div>
                 <span class="project-status">⬡ Coming Soon</span>
                 <h3 class="project-title">VNet + Peering Setup</h3>
                 <p class="project-category">Azure VNet peering</p>
                 <div class="project-meta">
                   <span class="project-date">TBD</span>
+                  <span class="project-more">Details <ion-icon name="arrow-forward-outline"></ion-icon></span>
                 </div>
               </div>
             </li>
@@ -1248,7 +1246,9 @@
           <figure>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2811.3038964589455!2d7.040383907613912!3d4.807094132576324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1777390625464!5m2!1sen!2sng"
-              width="400" height="300" loading="lazy"></iframe>
+              width="400" height="300" loading="lazy"
+              title="Map showing Port Harcourt, Nigeria"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
           </figure>
         </section>
 
@@ -1257,24 +1257,39 @@
           <h3 class="h3 form-title">Contact Form</h3>
 
           <form action="https://formspree.io/f/mwvalplk"
-                method="post" class="form" data-form>
+                method="post" class="form" data-form novalidate>
 
             <div class="input-wrapper">
-              <input type="text" name="name" class="form-input" placeholder="Full name" required data-form-input>
+              <div class="form-field">
+                <label for="form-name" class="form-label">Full name</label>
+                <input type="text" id="form-name" name="name" class="form-input" placeholder="e.g. Ada Johnson" required data-form-input>
+              </div>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+              <div class="form-field">
+                <label for="form-email" class="form-label">Email address</label>
+                <input type="email" id="form-email" name="email" class="form-input" placeholder="you@example.com" required data-form-input>
+              </div>
             </div>
+
             <div class="input-wrapper full-width">
-              <input type="text" name="subject" class="form-input" placeholder="Subject" required data-form-input>
+              <div class="form-field">
+                <label for="form-subject" class="form-label">Subject</label>
+                <input type="text" id="form-subject" name="subject" class="form-input" placeholder="What is this about?" required data-form-input>
+              </div>
             </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <div class="form-field">
+              <label for="form-message" class="form-label">Message</label>
+              <textarea id="form-message" name="message" class="form-input" placeholder="Tell me about the role, project, or opportunity…" required data-form-input></textarea>
+            </div>
 
-            <button class="form-btn" type="submit" onclick="alert('Thank you! Your message has been sent. I typically respond within 1-2 business days. Looking forward to connecting!')" data-form-btn>
+            <button class="form-btn" type="submit" aria-controls="form-status" data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
-            
+
+            <p class="form-note" id="form-status" role="status" aria-live="polite"></p>
+
           </form>
 
         </section>
@@ -1289,9 +1304,9 @@
 
     <div class="overlay" data-project-modal-overlay></div>
 
-    <section class="project-modal">
+    <section class="project-modal" role="dialog" aria-modal="true" aria-label="Project details">
 
-      <button class="modal-close-btn" data-project-modal-close-btn>
+      <button class="modal-close-btn" data-project-modal-close-btn aria-label="Close project details">
         <ion-icon name="close-outline"></ion-icon>
       </button>
 
@@ -1308,7 +1323,7 @@
 
       <div class="project-meta project-modal-footer">
         <span class="project-date" data-project-modal-date></span>
-        <a class="project-modal-link" href="#" target="_blank" data-project-modal-link>View GitHub/Site repo ↗</a>
+        <a class="project-modal-link" href="#" target="_blank" rel="noopener" data-project-modal-link>View GitHub/Site repo ↗</a>
       </div>
 
     </section>
