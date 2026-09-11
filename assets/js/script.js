@@ -57,6 +57,18 @@ overlay.addEventListener("click", testimonialsModalFunc);
 // project modal variables
 const projectItems = document.querySelectorAll(".project-card");
 const projectModalContainer = document.querySelector("[data-project-modal-container]");
+
+// Assign project numbers automatically from project list order.
+const projectListItems = document.querySelectorAll(".project-list .project-item[data-filter-item]");
+
+projectListItems.forEach(function (item, index) {
+  const projectCard = item.querySelector(".project-card");
+  const projectNum = projectCard?.querySelector(".project-num");
+
+  if (projectNum) {
+    projectNum.textContent = String(index + 1).padStart(2, "0");
+  }
+});
 const projectModalCloseBtn = document.querySelector("[data-project-modal-close-btn]");
 const projectModalOverlay = document.querySelector("[data-project-modal-overlay]");
 const projectModalTitle = document.querySelector("[data-project-modal-title]");
